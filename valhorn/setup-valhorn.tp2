@@ -1,0 +1,31 @@
+/* Improved Horns of Valhalla v1.1
+ *
+ * This is not an item upgrade.  It is an improvement
+ * to the existing Horns of Valhalla, as shipped with the game.
+ *
+ * See the valhorn-readme.txt for details about the improvements
+ *
+ */
+BACKUP ~valhorn/backup~
+AUTHOR ~cirerrek@hotmail.com~
+VERSION ~v2~
+README ~valhorn/readme-improved_horns.html~
+
+LANGUAGE ~AMERICAN ENGLISH~      ~american~ ~valhorn/lang/american/vhsetup.tra~
+LANGUAGE ~French (by Isaya)~     ~french~   ~valhorn/lang/american/vhsetup.tra~
+                                            ~valhorn/lang/french/vhsetup.tra~
+LANGUAGE ~German (by Hurricane)~ ~german~   ~valhorn/lang/american/vhsetup.tra~
+                                            ~valhorn/lang/german/vhsetup.tra~
+LANGUAGE ~Italian (by Aedan)~    ~italian~  ~valhorn/lang/american/vhsetup.tra~
+                                            ~valhorn/lang/italian/vhsetup.tra~
+LANGUAGE ~Polish (by Chair)~     ~polish~   ~valhorn/lang/american/vhsetup.tra~
+                                            ~valhorn/lang/polish/vhsetup.tra~
+
+/////////////////////////////////////
+// ~Improved Horns of Valhalla v1.1~
+/////////////////////////////////////
+
+BEGIN @1
+
+COPY ~valhorn/cre~ ~override~ // creatures
+     ~valhorn/itm~ ~override~ // items
